@@ -1,27 +1,21 @@
 {
-    "name": "laravel-zero/laravel-zero",
-    "description": "The Laravel Zero Framework.",
-    "keywords": ["framework", "laravel", "laravel zero", "console", "cli"],
-    "homepage": "https://laravel-zero.com",
+    "name": "mileschou/simulimiter",
+    "description": "Simulate for rate limiter",
     "type": "project",
     "license": "MIT",
-    "support": {
-        "issues": "https://github.com/laravel-zero/laravel-zero/issues",
-        "source": "https://github.com/laravel-zero/laravel-zero"
-    },
     "authors": [
         {
-            "name": "Nuno Maduro",
-            "email": "enunomaduro@gmail.com"
+            "name": "Miles Chou",
+            "email": "jangconan@gmail.com"
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "laravel-zero/framework": "^8.8"
+        "php": "^8.0",
+        "laravel-zero/framework": "^8.9"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.3",
-        "pestphp/pest": "^1.3"
+        "pestphp/pest": "^1.21"
     },
     "autoload": {
         "psr-4": {
@@ -40,5 +34,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["application"]
+    "bin": ["simulimiter"]
 }
